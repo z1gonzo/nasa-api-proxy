@@ -1,5 +1,6 @@
 # Express API Starter
-
+ npx create-express-api sample-express-api
+ 
 Includes API Server utilities:
 
 * [morgan](https://www.npmjs.com/package/morgan)
