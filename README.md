@@ -15,4 +15,4 @@
 
 ### Description
 
-Sample of hiding API_KEY for NASA api with requests limiters and caching data to avoid many requests to NASA api.
+Sample of hiding NASA_API_KEY with requests limiters and caching data.
