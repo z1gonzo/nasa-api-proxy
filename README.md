@@ -1,46 +1,18 @@
-# Express API Starter
- npx create-express-api sample-express-api
+# NASA api proxy with limiters
  
-Includes API Server utilities:
+⚙️ Technology:
+- Build with - [create-express-api](https://www.npmjs.com/package/create-express-api) as express starter server with api
 
-* [morgan](https://www.npmjs.com/package/morgan)
-  * HTTP request logger middleware for node.js
-* [helmet](https://www.npmjs.com/package/helmet)
-  * Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
-* [dotenv](https://www.npmjs.com/package/dotenv)
-  * Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
+- [NodeJS](https://nodejs.org/en/) as Server
+- [Express](https://expressjs.com/) as Server Framework
+- [express-rate-limit](https://www.npmjs.com/package/express-rate-limit) as rate-limiting middleware for Express
+- [express-slow-down](https://www.npmjs.com/package/express-slow-down) as rate-limiting middleware for Express
+- [Axios](https://www.npmjs.com/package/axios) Promise based HTTP client for the browser and node.js
 
-Development utilities:
+### How to start the application
+- npm install (from project root directory)
+- npm run dev
 
-* [nodemon](https://www.npmjs.com/package/nodemon)
-  * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
-* [eslint](https://www.npmjs.com/package/eslint)
-  * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
-* [mocha](https://www.npmjs.com/package/mocha)
-  * ☕️ Simple, flexible, fun JavaScript test framework for Node.js & The Browser ☕️
-* [supertest](https://www.npmjs.com/package/supertest)
-  * HTTP assertions made easy via superagent.
+### Description
 
-## Setup
-
-```
-npm install
-```
-
-## Lint
-
-```
-npm run lint
-```
-
-## Test
-
-```
-npm run test
-```
-
-## Development
-
-```
-npm run dev
-```
+Sample of hiding API_KEY for NASA api with requests limiters and caching data to avoid many requests to NASA api.
