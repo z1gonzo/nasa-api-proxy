@@ -11,6 +11,8 @@
 
 ### How to start the application
 - npm install (from project root directory)
+- you need your own NASA_API_KEY which you can get at https://api.nasa.gov/
+- make your own .env file with NASA_API_KEY=(Your key here)
 - npm run dev
 
 ### Description
